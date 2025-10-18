@@ -84,7 +84,7 @@ def main():
     while True:
         command = listen()
         if not command:
-            # no command recognized; continue listening
+            # no command recognized; continue listening ok
             continue
 
         if "hello" in command:
